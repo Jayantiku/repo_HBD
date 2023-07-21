@@ -1,0 +1,86 @@
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+body {
+  background: #008888;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.card {
+  background: #fdfdfd;
+  border-radius: 4px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+}
+.card {
+  flex-direction: row-reverse;
+  
+}
+.card img.birthday {
+  /* width: 40%;
+  max-width: 50vw;
+  height: 580px; */
+  width: 500px;
+  height: 500px;
+  padding-right: 0px;
+  /* border-radius: px; */
+  box-shadow: inset 0 0 0 9px rgba(239, 29, 29, 0.18);
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+@keyframes  profile__animate{
+    0%{
+        border-radius: 60% 40% 30% 60%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%;
+    }
+}
+.text {
+  padding-right: 2em;
+  padding-left: 10em;
+}
+.muted {
+  background-color: #008888;
+  height: 50px;
+  width: 140px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.muted a{
+  text-decoration: none;
+  color: white;
+}
+.muted:hover{
+  background-color: #aa377e;
+  border: none;
+}
+.space {
+  height: 100px;
+}
+h1{
+  color: #008888;
+  font-weight: 800;
+  font-size: 40px;
+  cursor: pointer;
+}
+h1:hover{
+  color: #aa377e;
+}
