@@ -26,16 +26,12 @@ body {
 }
 .card {
   flex-direction: row-reverse;
-  
 }
+
 .card img.birthday {
-  /* width: 40%;
-  max-width: 50vw;
-  height: 580px; */
   width: 500px;
   height: 500px;
   padding-right: 0px;
-  /* border-radius: px; */
   box-shadow: inset 0 0 0 9px rgba(239, 29, 29, 0.18);
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
