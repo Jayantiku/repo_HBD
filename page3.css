@@ -24,3 +24,24 @@
     padding: 1em;
     overflow: hidden;
   }
+  .muted {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 140px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .muted a{
+    text-decoration: none;
+    color: white;
+    color: #008888;
+  }
+  .muted:hover{
+    background-color: #aa377e;
+    border: none;
+  }
+  .btn_class{
+     left: 10%;
+  }
