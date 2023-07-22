@@ -16,17 +16,31 @@ body {
     height: 570px;
     overflow: hidden;
 }
-
-/* image 1 */
-.item img{
-  width: 320px;
-  height: 310px;
-  padding: 7px 10px 10px 35px;
+/* my img */
+.section5 img{
+  width: 318px;
+  height: 386px;
+  padding-left: 40px;
 }
+.section img{
+  width: 340px;
+  height: 380px;
+  padding-left: 32px;
+}
+.section p{
+ font-size: 12px;
+}
+/* image 0 */
+.section1 img{
+   width: 330px;
+   height: 400px;
+  padding-left: 35px;
+}
+
 .item p{
  padding-right: 15px;
  padding-left: 15px;
- font-size: 16px;
+ font-size: 14px;
  font-weight: 600;
 }
 .btn{
@@ -41,7 +55,7 @@ body {
 }
 .btn_main{
   position: fixed;
-  bottom: 160px;
+  bottom: 150px;
   right: 540px;
 }
 
@@ -49,17 +63,16 @@ body {
 /* img 2 */
 .section2 img{
   width: 320px;
-  height: 340px;
+  height: 365px;
   padding: 7px 10px 10px 42px;
-
 }
 /* img2 ends */
 
 /* img 3 */
 .section3 img{
   width: 320px;
-  height: 300px;
-  padding: 0px 20px -1px 0px;
+  height: 320px;
+  padding-left: 36px;
 }
 .section3 p{
   font-size: 12px;
@@ -76,15 +89,14 @@ body {
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
-
 }
 /* img 4 ends */
 
 /* img 5 */
 .section4 img{
   width: 320px;
-  height: 310px;
-  padding: 0px 20px -1px 0px;
+  height: 340px;
+  padding-left: 36px;
 }
 .section4 p{
   font-size: 12px;
@@ -92,9 +104,6 @@ body {
 /* img 5 ends */
 
 /* button */
-/* .btn_class{
-    padding: 0px 40px 40px 0px;
-} */
 
 .item{
     position: absolute;
